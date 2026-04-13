@@ -1,10 +1,27 @@
-/target
-**/*.rs.bk
-Cargo.lock
+# Build/Output
+target/
+build/
+node_modules/
 *.mbc
+*.rs.bk
+
+# IDEs and Editors
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
+
+# Logs and Environment
 *.log
+.env
+
+# Assets (The ones you asked for)
+*.png
+*.svg
+*.jpg
+*.jpeg
+
+# Miscellaneous
+*.extension
+Cargo.lock

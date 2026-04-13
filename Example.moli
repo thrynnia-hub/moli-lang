@@ -1,1 +1,11 @@
-let mut counter = 0     // explicitly mutable
+import stdio
+
+pub mod Example {
+    pub container Printing {
+        func run() {
+            print("Hello, World!")
+        }
+    }
+}
+
+start Example
