@@ -1,0 +1,28 @@
+import stdio
+
+pub mod MathDemo {
+    pub container Calculator {
+        func run() {
+            let a = 10
+            let b = 3
+            let sum = a + b
+            let diff = a - b
+            let prod = a * b
+            let quot = a / b
+            let rem = a % b
+
+            print("Sum: ")
+            print(sum)
+            print(" Diff: ")
+            print(diff)
+            print(" Prod: ")
+            print(prod)
+            print(" Quot: ")
+            print(quot)
+            print(" Rem: ")
+            print(rem)
+        }
+    }
+}
+
+start MathDemo

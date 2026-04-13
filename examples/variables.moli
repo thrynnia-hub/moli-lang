@@ -1,0 +1,25 @@
+import stdio
+
+pub mod VarDemo {
+    pub container Variables {
+        func run() {
+            // Immutable by default
+            let name = "Moli"
+            let version = 1
+
+            // Explicit mutability
+            let mut counter = 0
+            counter = counter + 1
+            counter = counter + 1
+
+            print("Language: ")
+            print(name)
+            print(" v")
+            print(version)
+            print(" Counter: ")
+            print(counter)
+        }
+    }
+}
+
+start VarDemo

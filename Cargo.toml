@@ -1,0 +1,25 @@
+[package]
+name = "moli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Moli Contributors"]
+description = "Moli (Modern Optimized Logic Instruction) - A high-level, statically typed programming language"
+license = "MIT"
+readme = "README.md"
+
+[lib]
+name = "moli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "moli"
+path = "src/main.rs"
+
+[dependencies]
+logos = "0.14"
+thiserror = "1.0"
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+
+[dev-dependencies]
+tempfile = "3.8"
